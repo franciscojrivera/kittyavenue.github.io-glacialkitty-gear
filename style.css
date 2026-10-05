@@ -1,0 +1,217 @@
+.image-container{
+  position: relative;
+  width: 100%;
+  max-width: 681px;
+  overflow: visible;
+}
+
+.main-img {
+  width: 100%;
+  max-width: 681px;
+}
+
+.hotspot {
+  position: absolute;
+}
+
+.preview {
+  display: none;
+  position: absolute;
+  top: max(0px, 50%);
+  left: 110%;
+  transform: translateY(-50%);
+  width: 40vw;
+  max-width: 300px;
+  border: 3px solid black;
+}
+
+/* align to the right */
+.preview2 {
+  display: none;
+  position: absolute;
+  top: max(0px, 50%);
+  right: 110%;
+  transform: translateY(-50%);
+  width: 40vw;
+  max-width: 300px;
+  border: 3px solid black;
+}
+
+/* Show preview when hovering test */
+.hotspot:hover .preview {
+  display: block;
+}
+
+.hotspot:hover .preview2 {
+  display: block;
+}
+
+/* Position each hotspot */
+
+.ring1 {
+  top: 22.50%;
+  left: 7.05%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.ring2 {
+  top: 33.09%;
+  left: 7.05%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.ring3 {
+  top: 42.60%;
+  left: 7.05%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.ring4 {
+  top: 52.83%;
+  left: 7.05%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.belt {
+  top: 63.06%;
+  left: 7.05%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.cup {
+  top: 73.29%;
+  left: 7.05%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.face {
+  top: 22.50%;
+  left: 19.68%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.eye {
+  top: 33.09%;
+  left: 19.68%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.earrings {
+  top: 42.60%;
+  left: 19.68%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.necklace1 {
+  top: 52.83%;
+  left: 19.68%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.necklace2 {
+  top: 63.06%;
+  left: 19.68%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.weapon {
+  top: 63.06%;
+  left: 32.01%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.secondary {
+  top: 63.06%;
+  left: 44.20%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.emblem {
+  top: 63.06%;
+  left: 56.68%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.hat {
+  top: 22.50%;
+  left: 69.16%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.top {
+  top: 33.09%;
+  left: 69.16%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.bottom {
+  top: 42.60%;
+  left: 69.16%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.shoulder {
+  top: 52.83%;
+  left: 69.16%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.cape {
+  top: 22.50%;
+  left: 81.50%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.gloves {
+  top: 33.09%;
+  left: 81.50%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.shoes {
+  top: 42.60%;
+  left: 81.50%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.medal {
+  top: 52.83%;
+  left: 81.50%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.heart {
+  top: 63.06%;
+  left: 81.50%;
+  width: 11.01%;
+  height: 9.02%;
+}
+
+.badge {
+  top: 73.29%;
+  left: 81.50%;
+  width: 11.01%;
+  height: 9.02%;
+}
