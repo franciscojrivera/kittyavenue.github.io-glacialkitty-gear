@@ -215,3 +215,15 @@
   width: 11.01%;
   height: 9.02%;
 }
+
+/* Tap-to-show (works on mobile) */
+.hotspot.active .preview,
+.hotspot.active .preview2 {
+  display: block;
+}
+
+/* Keep the open preview on top of other hotspots */
+.hotspot:hover,
+.hotspot.active {
+  z-index: 10;
+}

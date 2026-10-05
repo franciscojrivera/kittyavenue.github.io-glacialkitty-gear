@@ -6,6 +6,27 @@
   <title>glacialkitty gear</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
+<script>
+  const hotspots = document.querySelectorAll('.hotspot');
+
+  function closeAll() {
+    hotspots.forEach(h => h.classList.remove('active'));
+  }
+
+  hotspots.forEach(h => {
+    h.addEventListener('click', e => {
+      e.stopPropagation();
+      const wasOpen = h.classList.contains('active');
+      closeAll();
+      if (!wasOpen) h.classList.add('active');
+    });
+  });
+
+  // tapping anywhere else closes the preview
+  document.addEventListener('click', closeAll);
+</script>
+
 <body>
 
 <div class="image-container">
